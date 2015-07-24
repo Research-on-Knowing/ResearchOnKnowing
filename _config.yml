@@ -1,0 +1,22 @@
+# Site settings
+title: Research On Knowing
+email: contact@researchonknowing.com
+url: http://www.researchonknowing.com
+description: "Reinventing computer programming to revolutionize how we learn, understand and create."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#FFFFFF'
+
+# Footer settings
+footer: Research On Knowing LLC
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# social:
+#   - title: github
+#     url: https://github.com/jamiedouglass/LanguageOfLanguages
+
+# Build settings
+markdown: kramdown
+permalink: pretty
