@@ -1,6 +1,8 @@
 Research On Knowing LLC
 =========================
 
+Landing page containing information about Research On Knowing LLC and their projects.
+
 Website powered by [Jekyll](http://jekyllrb.com/).
 
-Jekyll theme: Grayscale (based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/))
+Jekyll theme: [Grayscale](https://github.com/jeromelachaud/grayscale-theme).
