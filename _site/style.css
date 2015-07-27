@@ -49,7 +49,7 @@
 .lols-logo {
     font-family: "Mordred-Bold";
     text-transform: none;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .lols-body {
@@ -61,6 +61,11 @@
   .lols-body {
       font-family: "Dosis-Light";
       font-size: 25px;
+  }
+  .lols-logo {
+      font-family: "Mordred-Bold";
+      text-transform: none;
+      font-size: 55px;
   }
 }
 
