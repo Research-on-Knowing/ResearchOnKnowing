@@ -3,7 +3,16 @@ title: Research On Knowing
 email: contact@researchonknowing.com
 url: http://www.researchonknowing.com
 description: "Reinventing computer programming to revolutionize how we learn, understand and create."
-
+lsi: false
+safe: true
+source: /ResearchOnKnowing
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
