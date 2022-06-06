@@ -17,7 +17,6 @@ kramdown:
 color:
   primary-dark: '#000000'
   links: '#FFFFFF'
-
 # Footer settings
 footer: Research On Knowing LLC
 
