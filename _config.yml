@@ -1,6 +1,6 @@
 # Site settings
-title: Research On Knowing
-email: contact@researchonknowing.com
+title: Research On Knowing LLC
+email: info@researchonknowing.com
 url: https://www.researchonknowing.com
 description: "Reinventing computer programming to revolutionize how we learn, understand and create."
 lsi: false
@@ -27,4 +27,5 @@ footer: Research On Knowing LLC
 
 # Build settings
 markdown: kramdown
+remote-theme: jeromelachaud/grayscale-theme
 permalink: pretty
