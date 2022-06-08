@@ -5,7 +5,7 @@ url: https://www.researchonknowing.com
 description: "Reinventing computer programming to revolutionize how we learn, understand and create."
 lsi: false
 safe: true
-source: /ResearchOnKnowing
+# source: /ResearchOnKnowing
 incremental: false
 highlighter: rouge
 gist:
