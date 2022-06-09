@@ -2,7 +2,8 @@
 title: Research On Knowing LLC
 email: info@researchonknowing.com
 # url: https://www.researchonknowing.com 
-url: https://jamiedouglass.github.io/ResearchOnKnowing
+url: https://jamiedouglass.github.io
+baseurl: /ResearchOnKnowing
 description: "Reinventing computer programming to revolutionize how we learn, understand and create."
 lsi: false
 safe: true

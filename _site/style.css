@@ -12,21 +12,21 @@
 /* inclusion of "Dosis" font for Research on Knowing logo and body text */
 @font-face {
     font-family: Dosis;
-    src: url("/fonts/dosis.semibold.ttf");
+    src: url("/ResearchOnKnowing/fonts/dosis.semibold.ttf");
 }
 @font-face {
     font-family: Dosis-Book;
-    src: url("/fonts/dosis.book.ttf");
+    src: url("/ResearchOnKnowing/fonts/dosis.book.ttf");
 }
 @font-face {
     font-family: Dosis-Light;
-    src: url("/fonts/dosis.light.ttf");
+    src: url("/ResearchOnKnowing/fonts/dosis.light.ttf");
 }
 
 /* inclusion of "Mordred Bold" font for Language of Languages logo */
 @font-face {
     font-family: Mordred-Bold;
-    src: url("/fonts/Mordred-Bold.ttf");
+    src: url("/ResearchOnKnowing/fonts/Mordred-Bold.ttf");
 }
 
 
