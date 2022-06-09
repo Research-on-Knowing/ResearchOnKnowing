@@ -1,12 +1,13 @@
 # Site settings
 title: Research On Knowing LLC
 email: info@researchonknowing.com
+# url: www.researchonknowing.com
 url: jamiedouglass.github.io
 baseurl: /ResearchOnKnowing
 description: "Reinventing computer programming to revolutionize how we learn, understand and create."
 lsi: false
 safe: true
-# source: /ResearchOnKnowing
+source: /ResearchOnKnowing
 incremental: false
 highlighter: rouge
 gist:
@@ -29,8 +30,8 @@ footer: Research On Knowing LLC
 #    url:
 # - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
-# - title: github
-#    url: https://github.com/jamiedouglass/ResearchOnKnowing
+- title: github
+    url: https://github.com/jamiedouglass/ResearchOnKnowing
 
 # Build settings
 markdown: kramdown
