@@ -1,7 +1,7 @@
 Research On Knowing LLC
 =========================
 
-Landing page containing information about Research On Knowing LLC and their projects.
+Landing page containing information about Research On Knowing LLC along with supported projects.
 
 Website powered by [Jekyll](https://jekyllrb.com/).
 

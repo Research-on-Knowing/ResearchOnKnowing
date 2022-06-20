@@ -41,23 +41,23 @@
     font-family: "Dosis-Book";
 }
 
-.lols-logo {
+.proj-logo {
     font-family: "Mordred-Bold";
     text-transform: none;
     font-size: 40px;
 }
 
-.lols-body {
+.proj-body {
     font-family: "Dosis-Light";
     font-size: 18px;
 }
 
 @media(min-width:767px) {
-  .lols-body {
+  .proj-body {
       font-family: "Dosis-Light";
       font-size: 25px;
   }
-  .lols-logo {
+  .proj-logo {
       font-family: "Mordred-Bold";
       text-transform: none;
       font-size: 55px;
@@ -313,7 +313,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.lols-section {
+.proj-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -336,7 +336,7 @@ a:focus {
         padding-top: 100px;
     }
 
-    .lols-section {
+    .proj-section {
         padding: 100px 0;
     }
 

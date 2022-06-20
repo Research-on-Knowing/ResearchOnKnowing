@@ -12,21 +12,21 @@
 /* inclusion of "Dosis" font for Research on Knowing logo and body text */
 @font-face {
     font-family: Dosis;
-    src: url("/ResearchOnKnowing/fonts/dosis.semibold.ttf");
+    src: url("/fonts/dosis.semibold.ttf");
 }
 @font-face {
     font-family: Dosis-Book;
-    src: url("/ResearchOnKnowing/fonts/dosis.book.ttf");
+    src: url("/fonts/dosis.book.ttf");
 }
 @font-face {
     font-family: Dosis-Light;
-    src: url("/ResearchOnKnowing/fonts/dosis.light.ttf");
+    src: url("/fonts/dosis.light.ttf");
 }
 
 /* inclusion of "Mordred Bold" font for Language of Languages logo */
 @font-face {
     font-family: Mordred-Bold;
-    src: url("/ResearchOnKnowing/fonts/Mordred-Bold.ttf");
+    src: url("/fonts/Mordred-Bold.ttf");
 }
 
 
@@ -46,23 +46,23 @@
     font-family: "Dosis-Book";
 }
 
-.lols-logo {
+.proj-logo {
     font-family: "Mordred-Bold";
     text-transform: none;
     font-size: 40px;
 }
 
-.lols-body {
+.proj-body {
     font-family: "Dosis-Light";
     font-size: 18px;
 }
 
 @media(min-width:767px) {
-  .lols-body {
+  .proj-body {
       font-family: "Dosis-Light";
       font-size: 25px;
   }
-  .lols-logo {
+  .proj-logo {
       font-family: "Mordred-Bold";
       text-transform: none;
       font-size: 55px;
@@ -318,7 +318,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.lols-section {
+.proj-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -341,7 +341,7 @@ a:focus {
         padding-top: 100px;
     }
 
-    .lols-section {
+    .proj-section {
         padding: 100px 0;
     }
 
