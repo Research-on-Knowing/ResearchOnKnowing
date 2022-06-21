@@ -27,13 +27,11 @@
 /* inclusion of fonts for various elements */
 .rok-logo-nav {
     font-family: "Dosis", sans-serif;
-    text-transform: none;
     font-size: 20px;
 }
 
 .rok-logo {
     font-family: "Dosis", sans-serif;
-    text-transform: none;
 }
 
 .rok-body {
@@ -42,7 +40,6 @@
 
 .proj-logo {
     font-family: "Mordred-Bold";
-    text-transform: none;
     font-size: 40px;
 }
 
@@ -58,7 +55,6 @@
   }
   .proj-logo {
       font-family: "Mordred-Bold";
-      text-transform: none;
       font-size: 55px;
   }
 }
@@ -123,7 +119,7 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3); 
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: {{ site.color.primary-dark }};
