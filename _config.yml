@@ -1,9 +1,10 @@
 # Site settings
 title: Research On Knowing LLC
-favicon: '/img/laptop.ico'
 email: info@researchonknowing.com
+favicon: '/img/laptop.ico'
 url: https://www.researchonknowing.com 
 description: "Reinventing computer programming to revolutionize how we learn, understand and create."
+# ????
 lsi: false
 safe: true
 incremental: false
@@ -13,6 +14,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
@@ -28,6 +30,8 @@ social:
 #    url:
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/Research-on-Knowing
 
