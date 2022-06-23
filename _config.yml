@@ -4,16 +4,8 @@ email: info@researchonknowing.com
 favicon: '/img/laptop.ico'
 url: https://www.researchonknowing.com 
 description: "Reinventing computer programming to revolutionize how we learn, understand and create."
-# ????
-lsi: false
+# Disable non-whitelisted plugins, caching to disk, and ignore symbolic links.
 safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -39,3 +31,7 @@ social:
 markdown: kramdown
 remote-theme: jeromelachaud/grayscale-theme
 permalink: pretty
+# lsi latent symentic indexing of posts using classifier-reborn plugin.
+lsi: false
+# incremental rebuild of only changed pages and posts
+incremental: false
