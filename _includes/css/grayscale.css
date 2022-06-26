@@ -308,6 +308,10 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
 }
 /* replaced download with proj-section */
 .proj-section {
