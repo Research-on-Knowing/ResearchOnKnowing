@@ -1,7 +1,7 @@
 # Site settings
 title: Research On Knowing LLC
 email: info@researchonknowing.com
-favicon: '/img/laptop.ico'
+favicon: '/img/owl-favicon.png'
 url: https://www.researchonknowing.com 
 description: "The practical application of epistemology to advance how we learn, understand and create things."
 # Disable non-whitelisted plugins, caching to disk, and ignore symbolic links.
