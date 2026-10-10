@@ -5,3 +5,6 @@
   summary: The reinvention of computer programming languages to create a paradigm shift within computing and software. Language of Languages employs an experimental language workbench to place the representation of software within the reach of developers.
   url: https://jamiedouglass.github.io/LoLsWorkbench/
   link_label: Open the Workbench
+  image: /img/tower-of-babel-card.jpg
+  overlay: 0.1
+  lighten: 0.1
