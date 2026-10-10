@@ -1,0 +1,19 @@
+    <!-- Projects Section -->
+    <section id="projects" class="container content-section text-center"
+        style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/ring-nebula-hs.jpg) no-repeat center center / cover">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <img src="{{ site.baseurl }}/img/owls-three.jpg" alt="Three owls" style="width:100%;max-width:380px;height:auto;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,0.6);margin-bottom:20px">
+                <h2>Projects</h2>
+                <p>Theory meets practice in active development, where great ideas require continuous iteration. Projects serves as our working lab and archive—showcasing work in progress alongside finished initiatives to offer a transparent look at how we formulate, refine, and apply practical epistemology to real-world challenges.
+                </p>
+                {% include project-cards.html items=site.data.projects limit=3 %}
+                <a href="{{ site.baseurl }}/projects/" class="btn btn-default btn-lg">Explore Our Projects</a>
+                <div>
+                    <a href="#contact" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>

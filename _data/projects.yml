@@ -1,0 +1,7 @@
+# One entry per project. To add a project, copy an entry and edit it.
+# status: active or archived
+- title: Language of Languages
+  status: archived
+  summary: The reinvention of computer programming languages to create a paradigm shift within computing and software. Language of Languages employs an experimental language workbench to place the representation of software within the reach of developers.
+  url: https://jamiedouglass.github.io/LoLsWorkbench/
+  link_label: Open the Workbench

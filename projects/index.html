@@ -1,0 +1,18 @@
+---
+layout: page
+title: Projects
+background: /img/ring-nebula-hs.jpg
+permalink: /projects/
+---
+<h2>Projects</h2>
+<p>Our working lab and archive.</p>
+{% assign active = site.data.projects | where: "status", "active" %}
+{% assign archived = site.data.projects | where: "status", "archived" %}
+{% if active.size > 0 %}
+<h3 style="margin-top:40px">Active</h3>
+{% include project-cards.html items=active %}
+{% endif %}
+{% if archived.size > 0 %}
+<h3 style="margin-top:40px">Archived</h3>
+{% include project-cards.html items=archived %}
+{% endif %}
