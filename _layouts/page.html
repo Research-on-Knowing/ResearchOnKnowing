@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top">
+    {% include nav-sub.html %}
+    <section class="container content-section text-center" style="padding-top:120px;min-height:70vh{% if page.background %};background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url({{ page.background }}) no-repeat center center / cover{% endif %}">
+        {{ content }}
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>
