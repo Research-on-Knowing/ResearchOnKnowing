@@ -1,9 +1,11 @@
 <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin:30px 0">
 {% for p in include.items limit: include.limit %}
-  <div style="flex:1 1 280px;max-width:340px;border:1px solid rgba(255,255,255,0.45);border-radius:6px;padding:20px;text-align:left;background:rgba(0,0,0,0.35)">
-    <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;opacity:0.75">{{ p.status }}</div>
-    <h3 style="margin:8px 0 10px">{{ p.title }}</h3>
-    <p>{{ p.summary }}</p>
+  {% assign ov = p.overlay | default: 0.55 %}
+  {% assign lt = p.lighten | default: 0 %}
+  <div class="project-card" style="flex:1 1 280px;max-width:340px;border:1px solid rgba(255,255,255,0.45);border-radius:6px;padding:20px;text-align:left;text-shadow:0 1px 3px rgba(0,0,0,0.85);{% if p.image %}background:linear-gradient(rgba(255,255,255,{{ lt }}),rgba(255,255,255,{{ lt }})),linear-gradient(rgba(0,0,0,{{ ov }}),rgba(0,0,0,{{ ov }})),url({{ p.image }}) center center / cover{% else %}background:rgba(0,0,0,0.35){% endif %}">
+    <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--card-title)">{{ p.status }}</div>
+    <h3 style="margin:8px 0 10px;color:var(--card-name)">{{ p.title }}</h3>
+    <p style="color:var(--card-text)">{{ p.summary }}</p>
     {% if p.url %}<a href="{{ p.url }}" class="btn btn-default">{{ p.link_label | default: "Learn more" }}</a>{% endif %}
   </div>
 {% endfor %}

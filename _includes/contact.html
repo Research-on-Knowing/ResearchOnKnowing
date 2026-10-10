@@ -1,10 +1,41 @@
     <!-- Contact Section -->
+    <style>
+      #contact {
+      }
+      #contact .intro-title { font-weight:bold; letter-spacing:2px; margin-top:20px; color:var(--intro-title); }
+      #contact .intro-tagline { color:var(--intro-tagline); }
+      #contact .intro-invite { color:var(--intro-invite); }
+      #contact a.intro-email { color:var(--intro-email); }
+      #contact .team-card { flex:1 1 280px; max-width:380px; display:flex; flex-direction:column; border:1px solid rgba(255,255,255,0.45); border-radius:6px; padding:20px; text-align:left; background:rgba(0,0,0,0.35); }
+      #contact .team-card h4 { margin:0; color:var(--card-name); }
+      #contact .team-card .team-title { font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--card-title); margin:4px 0 10px; }
+      #contact .team-card p { color:var(--card-text); }
+      #contact .team-card a.team-email { margin-top:auto; padding-top:10px; color:var(--card-email); }
+    </style>
     <section id="contact" class="container content-section text-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/celestial-fireworks.jpg) no-repeat center center / cover">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 rok-body">
+                <img src="{{ site.baseurl }}/img/owl-single.jpg" alt="Owl" style="width:100%;max-width:200px;height:auto;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,0.6);margin-bottom:20px">
                 <h2 class="rok-body">Contact Us</h2>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
+                <p class="intro-title">RESEARCH ON KNOWING LLC</p>
+                <p class="intro-tagline">Applying practical epistemology to reveal unseen mechanics in how we learn, understand, and work.</p>
+                <p class="intro-invite">For general questions, media requests, or business partnerships, contact us at:<br>
+                   <a class="intro-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                <h3 style="margin-top:40px">Connect directly with our team</h3>
+                <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:20px">
+                    <div class="team-card">
+                        <h4>Dan Douglass</h4>
+                        <div class="team-title">Owner</div>
+                        <p>Leads organizational vision, operations, and strategic initiatives, focusing on the practical integration of epistemology within business, technology, and execution systems.</p>
+                        <a class="team-email" href="mailto:dan@researchonknowing.com">dan@researchonknowing.com</a>
+                    </div>
+                    <div class="team-card">
+                        <h4>Jamie Douglass</h4>
+                        <div class="team-title">Principal Scientist Emeritus</div>
+                        <p>Guides foundational research, scientific methodology, and conceptual frameworks—exploring how shifted perspectives reveal unseen structures in how we learn and work.</p>
+                        <a class="team-email" href="mailto:jamie@researchonknowing.com">jamie@researchonknowing.com</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
