@@ -1,5 +1,13 @@
 # One entry per project. To add a project, copy an entry and edit it.
 # status: active or archived
+- title: Gigabit Whatcom
+  status: active
+  summary: Public ownership of fiber with open access for private internet providers, so everyone in Whatcom County can get fast, symmetrical, affordable internet. The project history covers the inspiration, our framework, the McGee Road local loop, a county-wide assessment, and the updated case study.
+  url: https://research-on-knowing.github.io/OnKnowing/why-gigabit-whatcom/
+  link_label: Read the Project History
+  image: /img/gigabit-whatcom-card.jpg
+  overlay: 0.35
+  lighten: 0
 - title: Language of Languages
   status: archived
   summary: The reinvention of computer programming languages to create a paradigm shift within computing and software. Language of Languages employs an experimental language workbench to place the representation of software within the reach of developers.
