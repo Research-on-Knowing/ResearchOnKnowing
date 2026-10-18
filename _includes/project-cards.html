@@ -6,6 +6,7 @@
     <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--card-title)">{{ p.status }}</div>
     <h3 style="margin:8px 0 10px;color:var(--card-name)">{{ p.title }}</h3>
     <p style="color:var(--card-text)">{{ p.summary }}</p>
+    {% if p.first_post %}<a href="{{ p.first_post }}" class="btn btn-default" style="margin-right:8px;margin-bottom:6px">{{ p.first_post_label | default: "Read the first post" }}</a>{% endif %}
     {% if p.url %}<a href="{{ p.url }}" class="btn btn-default">{{ p.link_label | default: "Learn more" }}</a>{% endif %}
   </div>
 {% endfor %}

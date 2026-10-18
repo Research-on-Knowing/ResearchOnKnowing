@@ -11,7 +11,9 @@
 - title: Language of Languages
   status: archived
   summary: The reinvention of computer programming languages to create a paradigm shift within computing and software. Language of Languages employs an experimental language workbench to place the representation of software within the reach of developers.
-  url: https://jamiedouglass.github.io/LoLsWorkbench/
+  url: https://jamiedouglass.github.io/LanguageWorkbench/
+  first_post: https://www.researchonknowing.com/insights/why-we-built-language-of-languages/
+  first_post_label: Read the Project History
   link_label: Open the Workbench
   image: /img/tower-of-babel-card.jpg
   overlay: 0.1
